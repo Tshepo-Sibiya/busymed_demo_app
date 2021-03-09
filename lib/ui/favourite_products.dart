@@ -23,12 +23,13 @@ class _FavouriteScreenState extends State<FavouriteScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          centerTitle: true,
-          title: Text('Favourite products'),
-        ),
-        body: Center(
-          child: CircularProgressIndicator(),
-        ));
+      appBar: AppBar(
+        centerTitle: true,
+        title: Text('Favourite products'),
+      ),
+      body: Center(
+        child: CircularProgressIndicator(),
+      ),
+    );
   }
 }
